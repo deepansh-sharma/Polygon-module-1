@@ -4,7 +4,7 @@ pragma solidity ^0.8.9;
 
 import "erc721a/contracts/ERC721A.sol";
 
-contract americanfood is ERC721A {
+contract Laptop is ERC721A {
     address public owner;
 
     // Maximum number of tokens that can be minted
@@ -12,10 +12,10 @@ contract americanfood is ERC721A {
 
     // Base url for the nfts
     string baseUrl =
-        "https://gateway.pinata.cloud/ipfs/QmfPapKbJPgzThnohxr84XWtcXURgYMX8ZT5W8BJJJrFh6/?_gl=1*pz4x6v*_ga*Njc4OTA0NTAyLjE2ODk2MTQzMTU.*_ga_5RMPXG14TE*MTY4OTY2OTI3MC40LjEuMTY4OTY2OTMyOS4xLjAuMA..";
+        "https://gateway.pinata.cloud/ipfs/QmXJA7Ri3M43hAZH5K8dEKSRUF6dzpmyduWVbANLLVcoxE/";
 
     // URL for the prompt description
-    string public prompt = "American food that is popular";
+    string public prompt = "Laptop";
 
     constructor() ERC721A("americanfood", "AF") {
         owner = msg.sender;

@@ -1,28 +1,28 @@
 const nfts = [
   {
     name: "0",
-    description: "American food that is popular",
-    image: "QmdGTxRYAeqYbB1gFVBRUrXpEyiqaVybq4SaHCNPWEFH2f",
+    description: "Laptop",
+    image: "QmXJA7Ri3M43hAZH5K8dEKSRUF6dzpmyduWVbANLLVcoxE",
   },
   {
     name: "1",
-    description: "American food that is popular",
-    image: "QmQPdnCwNvuzMSptyRsHqVBTBsrcEfXjhMxnAvDKN8tSze",
+    description: "Laptop",
+    image: "QmXJA7Ri3M43hAZH5K8dEKSRUF6dzpmyduWVbANLLVcoxE",
   }, 
   {
     name: "2",
-    description: "American food that is popular",
-    image: "QmQDpXCy596RaaRZQaNYjPZtWD5qA513fJyWp3EZpxxHs9",
+    description: "Laptop",
+    image: "QmXJA7Ri3M43hAZH5K8dEKSRUF6dzpmyduWVbANLLVcoxE",
   },
   {
     name: "3",
-    description: "American food that is popular",
-    image: "QmTQBukKjm9MNjmkBYVdJ5JEtZY9fxSLWF8xwQEckzjZ6X",
+    description: "Laptop",
+    image: "QmXJA7Ri3M43hAZH5K8dEKSRUF6dzpmyduWVbANLLVcoxE",
   },
   {
     name: "4",
-    description: "American food that is popular",
-    image: "QmTVYFTZFS6zcb1znAvgDSeBFq2LG3EKbkdrwmQmvUg46H",
+    description: "Laptop",
+    image: "QmXJA7Ri3M43hAZH5K8dEKSRUF6dzpmyduWVbANLLVcoxE",
   },
 ];
 

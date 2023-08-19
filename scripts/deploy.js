@@ -4,7 +4,7 @@ const fs = require("fs");
 
 async function main() {
   // Get the contract factory
-  const NFT = await hre.ethers.getContractFactory("americanfood");
+  const NFT = await hre.ethers.getContractFactory("Laptop");
 
   // Deploy the contract
   const nft = await NFT.deploy();

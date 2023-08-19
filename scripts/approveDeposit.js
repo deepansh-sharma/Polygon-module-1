@@ -2,7 +2,7 @@
 // Import necessary packages and contracts
 const { ethers } = require("hardhat");
 const  { FXRootContractAbi }  = require("../artifacts/FXRootContractAbi.js");
-const ABI = require("../artifacts/contracts/americanfood.sol/americanfood.json");
+const ABI = require("../artifacts/contracts/Laptop.sol/Laptop.json");
 require("dotenv").config();
 
 //Transfer ERC721A tokens to the Ethereum FxChain network
@@ -19,7 +19,7 @@ async function main() {
   const [signer] = await ethers.getSigners();
 
   // Get ERC721A contract instance
-  const NFT = await ethers.getContractFactory("americanfood");
+  const NFT = await ethers.getContractFactory("Laptop");
   const nft = await NFT.attach("0x36F6a76bA1c5BeF1dcc1AA718d7Aa3964990bac2");
 
   // Get FXRoot contract instance

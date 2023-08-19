@@ -19,10 +19,10 @@ async function main() {
   const signer = new ethers.Wallet(privateKey, provider);
 
   // Tthe address of the deployed contract
-  const contractAddress = "0x3E2f022a79362725dC45833D613Dbb420D72921D";
+  const contractAddress = "0xaC13a43d598d17f8b5bf9648A4724DC3d838658D";
 
   // Get the contract factory and attach it to the signer
-  const NFT = await ethers.getContractFactory("americanfood", signer);
+  const NFT = await ethers.getContractFactory("Laptop", signer);
   const contract = await NFT.attach(contractAddress);
 
   // Call the mint function on the contract to mint 5 tokens
