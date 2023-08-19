@@ -47,6 +47,11 @@ async function main() {
   }
 
   console.log(" Successfully Approved and deposited");
+   // Test balanceOf
+   const balance = await nft.balanceOf(wallet.address);
+
+   // Print the balance of the wallet
+   console.log("NFT balance", wallet.address, "is-- ", balance.toString());
 
 }
 
